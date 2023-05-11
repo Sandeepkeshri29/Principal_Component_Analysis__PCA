@@ -24,6 +24,7 @@ where
 The covariance matrix 
  is symmetric, so we can apply the eigen decomposition 
  with 
+ 
 Step 4 : Projection onto eigenvectors
 Let's consider that we want to reduce the dimension from n to m. We just need to project the data onto the m first eigen vectors because they have the highest eigen values. We then get the result:
 
@@ -32,4 +33,5 @@ Let's consider a kernel with the expression
 . For instance a gaussian kernel can be written as 
 We can define 
  and consider the matrix 
+ 
 You may be able to better understand the PCA now.
