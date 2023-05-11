@@ -5,6 +5,8 @@ Principle Component Analysis
 Probably the most known one. It is based on eigen decomposition.
 Let's consider the set of vectors { 
  } that represent our data
+ 
+
 Step 1 : Compute the mean and substract it to get data with null Esperance
 
 Step 2 : Compute the covariance matrix
